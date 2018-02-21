@@ -1,7 +1,8 @@
 node () {
   
-   if  (env.BRANCH_NAME != 'develop') {
-     echo "checkout for branch==============================================-------------------"+env.BRANCH_NAME   
+   if  (env.BRANCH_NAME == 'master') {
+       checkout()
+       echo "checkout for branch==============================================-------------------"+env.BRANCH_NAME   
       build()
                
     } 
