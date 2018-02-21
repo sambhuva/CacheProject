@@ -7,11 +7,9 @@ node () {
                
     } 
     else { 
-    checkout()
+  echo "this other branch"
     }
 }
-
-
 
 def checkout(){
  stage 'Checkout code'
