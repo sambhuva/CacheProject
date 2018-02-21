@@ -6,10 +6,7 @@ node () {
       build()
                
     } 
-    else { 
-      
-      
-      
+    else {
        echo "checkout for branch==============================================-------------------"+env.BRANCH_NAME  
   echo "this other branch"
     }
